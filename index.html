@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <a href="/" class="logo">
+          <span>soricode</span>
+        </a>
+        <nav>
+          <a href="#" class="is-active">
+            <i class="ico-list"></i>
+            <span>overview</span>
+          </a>
+          <a href="#">
+            <i class="ico-music"></i>
+            <span>playlist</span>
+          </a>
+          <a href="#">
+            <i class="ico-star"></i>
+            <span>favorites</span>
+          </a>
+          <a href="#">
+            <i class="ico-chart"></i>
+            <span>charts</span>
+          </a>
+        </nav>
+      </aside>
+      <main class="content-music">
+        <header class="content-header">
+          <div class="header-bar">
+            <h1>Overview</h1>
+            <div>
+              <a href="#">Hello, sori!</a>
+              <button class="menu">
+                <i class="ico-menu"></i>
+              </button>
+            </div>
+          </div>
+          <ul class="tabs">
+            <li class="is-active">music</li>
+            <li>podcast</li>
+          </ul>
+        </header>
+        <section class="section-overview">
+          <ul>
+            <li>
+              <small>총 재생 수</small>
+              <span class="cases">2,486</span>
+            </li>
+            <li>
+              <small>총 재생 시간</small>
+              <span class="hours">120</span>
+            </li>
+            <li>
+              <small>좋아요한 곡</small>
+              <span class="cases">165</span>
+            </li>
+            <li>
+              <small>내 플레이리스트</small>
+              <span class="cases">6</span>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <div class="list">
+            <ul>
+              <li title="check">
+                <div class="checkbox">
+                  <input id="check" type="checkbox" />
+                  <label for="check"></label>
+                </div>
+              </li>
+              <li title="title">
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/60/90/ad/6090adc3-8863-861d-afcc-23c55c6fe5da/dj.vmtulfyu.jpg/60x60bb.jpg"
+                  alt=""
+                />
+                <div>A Sky Full of Stars</div>
+              </li>
+              <li>Coldplay</li>
+              <li>Alternative</li>
+              <li>
+                <audio
+                  controls=""
+                  src="https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a2/31/4b/a2314b97-10b6-190c-72b3-45cc21bbf56b/mzaf_740612971315603868.plus.aac.p.m4a"
+                ></audio>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
