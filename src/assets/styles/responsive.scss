@@ -1,0 +1,57 @@
+@media screen and (max-width: 960px) {
+  .sidebar {
+    width: auto;
+
+    .logo {
+      &::before {
+        content: "S";
+      }
+
+      span {
+        display: none;
+      }
+    }
+
+    nav {
+      span {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .sidebar {
+    position: absolute;
+    left: -100%;
+    width: 70%;
+    z-index: 10;
+    transition: left 0.25s;
+
+    &.is-active {
+      left: 0;
+      z-index: 100 !important;
+
+      .logo {
+        &::before {
+          content: none;
+        }
+
+        span {
+          display: flex;
+        }
+      }
+      nav {
+        span {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  header {
+    .menu {
+      display: flex !important;
+    }
+  }
+}
