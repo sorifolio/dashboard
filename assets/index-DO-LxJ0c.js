@@ -74,7 +74,7 @@
           <li>genre</li>
           <li>preview</li>
         </ul>
-        ${(await(await fetch("http://itunes.apple.com/search?term=coldplay&entity=song&limit=20")).json()).results.map((e,s)=>({artist:e.artistName,title:e.trackName,artwork:e.artworkUrl60,index:s+1,genre:e.primaryGenreName,preview:e.previewUrl})).map(e=>`
+        ${(await(await fetch("https://itunes.apple.com/search?term=coldplay&entity=song&limit=20")).json()).results.map((e,s)=>({artist:e.artistName,title:e.trackName,artwork:e.artworkUrl60,index:s+1,genre:e.primaryGenreName,preview:e.previewUrl})).map(e=>`
       <ul>
         <li title="check">
           <div class="checkbox">
