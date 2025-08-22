@@ -1,6 +1,6 @@
 export async function SongList() {
   const response = await fetch(
-    "http://itunes.apple.com/search?term=coldplay&entity=song&limit=20"
+    "https://itunes.apple.com/search?term=coldplay&entity=song&limit=20"
   );
   const data = await response.json();
 

@@ -2,19 +2,19 @@
   font-family: "Pretendard";
   font-weight: 500;
   font-display: swap;
-  src: url("./fonts/Pretendard-Medium.woff2") format("woff2");
+  src: url("@/assets/fonts/Pretendard-Medium.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "NanumSquareB";
   font-weight: 500;
   font-display: swap;
-  src: url("./fonts/NanumSquareNeoOTF-cBd.otf") format("opentype");
+  src: url("@/assets/fonts/NanumSquareNeoOTF-cBd.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("./fonts/Poppins-Medium.ttf") format("truetype");
+  src: url("@/assets/fonts/Poppins-Medium.ttf") format("truetype");
 }
 
 *,
